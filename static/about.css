@@ -1,0 +1,82 @@
+/* General Styling body {
+    background-color: lightblue;
+  }
+*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main Section Styling */
+.main {
+    padding: 2rem 0;
+}
+
+.intro, .team {
+    margin-bottom: 2rem;
+}
+
+.intro h2, .team h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.intro p, .team p {
+    margin-bottom: 1rem;
+}
+
+/* Team Section Styling */
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.team-member {
+    flex: 1 1 300px;
+    border: 1px solid #e5e5e5;
+    padding: 1rem;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    margin: 0.5rem 0;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}

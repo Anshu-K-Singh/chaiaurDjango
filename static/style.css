@@ -1,0 +1,68 @@
+body {
+    background-color: lightblue;
+  }
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Link and Logo Styling */
+header a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-bottom: 0;
+    margin-right: auto;
+    text-decoration: none;
+    color: #000;
+}
+
+header a:hover {
+    color: #0056b3;
+}
+
+header svg {
+    margin-right: 0.5rem;
+}
+
+header .fs-4 {
+    font-size: 1.5rem;
+}
+
+/* Navigation Styling */
+.nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #000;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background-color: #0056b3;
+    color: #fff;
+}
